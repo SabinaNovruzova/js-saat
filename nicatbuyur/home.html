@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>SaatStore</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo1">
+              
+                   <img style="width:170px;" src="assets/image/logo.png"  alt="">
+              
+            </div>
+            <div class="logo2">
+<img style="width: 170px;" src="assets/image/logo1.png" alt="">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#Men"class=" link-dark">Kişi saatları</a></li>
+                    <li><a href="#Women"class=" link-dark">Qadın saatları</a></li>
+                    <li><a href="#Lighter"class=" link-dark">Alışqanlar</a></li>
+                    <li><a href="#footer">Əlaqə</a></li>
+                    <div class="mode">
+                        <span class="change"><i class="las la-moon"></i></span>
+                    </div>
+                    <li><a href="admin.html"class=" link-dark"><i class="las la-user-tie"></i></a></li>
+                    <li>
+                        <div class="basket">
+                            <img  style="width:35px;" src="https://saatstore.az/catalog/view/theme/oct_ultrastore/img/cart-mobile.svg" alt=""> 
+                             <span class="totalcount">0</span>
+                           </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="modal">
+        <header class="modalhead">
+       <h2>Səbət</h2>
+       <i class="modalclose las la-times"></i>
+        </header>
+
+        <main class="modalmain">
+            <img class="modalimg"  style="width:135px;" src="https://saatstore.az/catalog/view/theme/oct_ultrastore/img/cart-mobile.svg" alt=""> 
+            <p>Səbət Boşdur!</p>
+        </main>
+
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://saatstore.az/image/cache/catalog/banner/cover-yeni-modeller-1420x530.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://saatstore.az/image/cache/catalog/banner/Polo%205banner5www-1420x530.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://saatstore.az/image/cache/catalog/banner/swiss-banner4-1420x530.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <div class="text">
+        <hr>
+        <h2>Ən çox satılanlar</h2>
+    </div>
+    <div class="container d-flex mt-5" style="text-align:center ;gap: 25px;">
+        <div class="card"  style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://saatstore.az/image/cache/catalog/kishi/0/ge-catalog-products-VT-00001546-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">C8365 LBL.S.BL</h6>
+                <p class="card-text">44.00AZN</p>
+                <a href="#" class="btn btn-success" style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://saatstore.az/image/cache/catalog/kishi/1/ge-catalog-products-VT-00000533-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">MTP-1374D-2AVDF</h6>
+                <p class="card-text">149.00AZN</p>
+                <a href="#" class="btn btn-success" style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://saatstore.az/image/cache/catalog/kishi/7/ge-catalog-products-VT-00000579-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">MTP-V001D-7BUDF</h6>
+                <p class="card-text">79.00AZN</p>
+                <a href="#" class="btn btn-success" style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://saatstore.az/image/cache/catalog/kishi/5/ge-catalog-products-VT-00000537-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">MTP-1374L-1AVDF</h6>
+                <p class="card-text">139.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://saatstore.az/image/cache/catalog/qadin/3/ge-catalog-products-VT-00000465-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">LTP-V004GL-7AUDF</h6>
+                <p class="card-text ">69.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+    </div>
+    <section id="Men">
+    <div class="text">
+        <h2>Kişi saatları</h2>
+        <hr>
+    </div>
+    <div class="container d-flex mt-5" style="text-align:center ;gap:25px;">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/kishi/1/VT-00004098-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">FAB00001D9</h6>
+                <p class="card-text ">239.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/kishi/5/VT-00004390-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">SB.1.10291-3</h6>
+                <p class="card-text ">219.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/kishi/0/VT-00003798-200x200.png"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">SM34015.10</h6>
+                <p class="card-text ">699.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://saatstore.az/image/cache/catalog/kishi/3/ge-catalog-products-VT-00003260-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">SM34071.08</h6>
+                <p class="card-text ">399.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/kishi/2/VT-00004401-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">LTP-V004GL-7AUDF</h6>
+                <p class="card-text ">69.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+    </div>
+</section> 
+<section id="Women">
+    <div class="text">
+        <hr>
+        <h2>Qadın saatları</h2>
+    </div>
+    <div class="container d-flex mt-5" style="text-align:center ;gap:25px;">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/qadin/3/ge-catalog-products-VT-00001477-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">C9012 SG.G.G</h6>
+                <p class="card-text ">42.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/qadin/0/ge-catalog-products-VT-00000948-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">C9020 SSG.S.W</h6>
+                <p class="card-text ">42.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/qadin/4/ge-catalog-products-VT-00002810-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">RG210SX9</h6>
+                <p class="card-text ">237.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://saatstore.az/image/cache/catalog/qadin/7/VT-00004494-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">SB.1.10138-1</h6>
+                <p class="card-text ">99.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/qadin/1/VT-00004160-200x200.png"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">SM34066.07</h6>
+                <p class="card-text ">599.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Lighter">
+    <div class="text">
+        <hr>
+        <h2>Alışqanlar</h2>
+    </div>
+    <div class="container d-flex mt-5" style="text-align:center ;gap:25px;">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/alishqanlar/2/VT-00003820-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">ZIPPO 254</h6>
+                <p class="card-text ">59.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/alishqanlar/9/VT-00003989-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">ZIPPO 29864</h6>
+                <p class="card-text ">63.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://saatstore.az/image/cache/catalog/alishqanlar/2/VT-00003987-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">ZIPPO 49072</h6>
+                <p class="card-text ">60.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+        </div>
+        <div class="card " style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://saatstore.az/image/cache/catalog/alishqanlar/5/VT-00003864-200x200.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h6 class="card-title">ZIPPO 49475ZL</h6>
+                <p class="card-text ">59.00AZN</p>
+                <a href="#" class="btn btn-success " style="width:90% ;height:40px;">SƏBƏTƏ AT</a>
+            </div>
+    </div>
+</section>
+<div class="textcenter">
+<h3>Ən məşhur saatlar</h3>
+</div>
+<section class="hoverimage">
+    <div class="container1" >
+        <img src="https://cdn.shopify.com/s/files/1/0074/5432/6835/products/NSQUARE-DynamicRace-ScreenShot2022-01-26at1.50.37PM_1800x1800.jpg?v=1643237436" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text1">Watch</div>
+        </div>
+      </div>
+      <div class="container1">
+        <img src="https://cdn.shopify.com/s/files/1/0074/5432/6835/products/electricianz-soprano-z-3_1800x1800.jpg?v=1615930744" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text1">Watch</div>
+        </div>
+      </div>
+      <div class="container1">
+        <img src="https://cdn.shopify.com/s/files/1/0074/5432/6835/products/electricianz-carbon-z-rubber-blue-4_720x.jpg?v=1609860039" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text1">Watch</div>
+        </div>
+      </div>
+</section>
+<section class="hoverimage">
+    <div class="container1" >
+        <img src="https://cdn.shopify.com/s/files/1/0074/5432/6835/products/electricianz-carbon-z-10_1800x1800.jpg?v=1593118692" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text1">Watch</div>
+        </div>
+      </div>
+      <div class="container1">
+        <img src="https://cdn.shopify.com/s/files/1/0074/5432/6835/products/The-SNOW---3_1024x1024_2x_fb2ee96f-173d-4cf5-86da-742d88eafb52_1800x1800.jpg?v=1615345290" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text1">Watch</div>
+        </div>
+      </div>
+      <div class="container1">
+        <img src="https://cdn.shopify.com/s/files/1/0074/5432/6835/products/electricianz-5-DARKZ_1_1800x1800.jpg?v=1599160613" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text1">Watch</div>
+        </div>
+      </div>
+    </div>
+</section>
+<div class="container py-5" id="footer">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <h5>Məlumat</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Əlaqə</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Geri qaytarma</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sayt xəritəsi</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Brendlər</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hədiyyə kartları</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <h5>Kateqoriyalar</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kişi</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Qadın</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cüzdanlar</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Uniseks</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Divar Saatı</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <h5>Bizimlə əlaqə</h5>
+          <ul class="nav  d-flex">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="lab la-instagram"></i></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="lab la-facebook"></i></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="lab la-twitter"></i></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="lab la-whatsapp"></i></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">503033452-Səbinə</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">514510468-Nicat</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">705756951-Dünyamalı</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">773206327-Əsgər</a></li>
+
+          </ul>
+        </div>
+  
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Abunə olun!</h5>
+            <p>Şikayət və təkliflərinizi bizimlə bölüşün!</p>
+            <div class="d-flex w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Göndər</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p>© 2021 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
